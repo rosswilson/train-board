@@ -4,6 +4,7 @@
   "description": "Run your own train-station arrivals board for UK trains",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest",
     "format": "prettier --write src/**/*.js",
     "lint": "eslint --fix src "
@@ -29,6 +30,7 @@
     "eslint": "^6.8.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "nock": "^12.0.1",
     "prettier": "1.19.1"
   },
   "husky": {
@@ -36,5 +38,9 @@
       "pre-commit": "npm run lint && npm run format",
       "pre-push": "npm test"
     }
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^10.6.0"
   }
 }

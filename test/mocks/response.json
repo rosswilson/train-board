@@ -1,0 +1,149 @@
+{
+  "location": {
+    "name": "Crewe",
+    "crs": "CRE",
+    "tiploc": "CREWE"
+  },
+  "filter": null,
+  "services": [
+    {
+      "locationDetail": {
+        "realtimeActivated": true,
+        "tiploc": "CREWE",
+        "crs": "CRE",
+        "description": "Crewe",
+        "wttBookedArrival": "160600",
+        "wttBookedDeparture": "160900",
+        "gbttBookedArrival": "1606",
+        "gbttBookedDeparture": "1609",
+        "origin": [
+          {
+            "tiploc": "EUSTON",
+            "description": "London Euston",
+            "workingTime": "134300",
+            "publicTime": "1343"
+          }
+        ],
+        "destination": [
+          {
+            "tiploc": "GLGC",
+            "description": "Glasgow Central",
+            "workingTime": "191500",
+            "publicTime": "1915"
+          }
+        ],
+        "isCall": true,
+        "isPublicCall": true,
+        "estimate": false,
+        "realtimeArrival": "1611",
+        "realtimeArrivalActual": true,
+        "realtimeDeparture": "1613",
+        "realtimeDepartureActual": false,
+        "platform": "6",
+        "platformConfirmed": true,
+        "platformChanged": true,
+        "serviceLocation": "APPR_PLAT",
+        "displayAs": "CALL"
+      },
+      "serviceUid": "C73705",
+      "runDate": "2020-02-29",
+      "trainIdentity": "9S77",
+      "runningIdentity": "9S77",
+      "atocCode": "VT",
+      "atocName": "Avanti West Coast",
+      "serviceType": "train",
+      "isPassenger": true
+    },
+    {
+      "locationDetail": {
+        "realtimeActivated": true,
+        "tiploc": "CREWE",
+        "crs": "CRE",
+        "description": "Crewe",
+        "wttBookedArrival": "161030",
+        "wttBookedDeparture": "161300",
+        "gbttBookedArrival": "1610",
+        "gbttBookedDeparture": "1611",
+        "origin": [
+          {
+            "tiploc": "EUSTON",
+            "description": "London Euston",
+            "workingTime": "144000",
+            "publicTime": "1440"
+          }
+        ],
+        "destination": [
+          {
+            "tiploc": "MNCRPIC",
+            "description": "Manchester Piccadilly",
+            "workingTime": "164600",
+            "publicTime": "1646"
+          }
+        ],
+        "isCall": true,
+        "isPublicCall": true,
+        "estimate": false,
+        "realtimeArrival": "1612",
+        "realtimeArrivalActual": false,
+        "realtimeDeparture": "1614",
+        "realtimeDepartureActual": false,
+        "platform": "5",
+        "platformConfirmed": false,
+        "platformChanged": false,
+        "displayAs": "CALL"
+      },
+      "serviceUid": "C72939",
+      "runDate": "2020-02-29",
+      "trainIdentity": "1H69",
+      "runningIdentity": "1H69",
+      "atocCode": "VT",
+      "atocName": "Avanti West Coast",
+      "serviceType": "train",
+      "isPassenger": true
+    },
+    {
+      "locationDetail": {
+        "realtimeActivated": true,
+        "tiploc": "CREWE",
+        "crs": "CRE",
+        "description": "Crewe",
+        "wttBookedDeparture": "161600",
+        "gbttBookedDeparture": "1616",
+        "origin": [
+          {
+            "tiploc": "CREWE",
+            "description": "Crewe",
+            "workingTime": "161600",
+            "publicTime": "1616"
+          }
+        ],
+        "destination": [
+          {
+            "tiploc": "LVRPLSH",
+            "description": "Liverpool Lime Street",
+            "workingTime": "182800",
+            "publicTime": "1828"
+          }
+        ],
+        "isCall": true,
+        "isPublicCall": true,
+        "estimate": false,
+        "realtimeDeparture": "1616",
+        "realtimeDepartureActual": false,
+        "platform": "1",
+        "platformConfirmed": true,
+        "platformChanged": false,
+        "serviceLocation": "AT_PLAT",
+        "displayAs": "ORIGIN"
+      },
+      "serviceUid": "Y57975",
+      "runDate": "2020-02-29",
+      "trainIdentity": "2F29",
+      "runningIdentity": "2F29",
+      "atocCode": "NT",
+      "atocName": "Northern",
+      "serviceType": "train",
+      "isPassenger": true
+    }
+  ]
+}
