@@ -1,0 +1,40 @@
+{
+  "name": "train-board",
+  "version": "1.0.0",
+  "description": "Run your own train-station arrivals board for UK trains",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write src/**/*.js",
+    "lint": "eslint --fix src "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rosswilson/train-board.git"
+  },
+  "keywords": [
+    "trains",
+    "uk",
+    "network-rail",
+    "passenger-information-system",
+    "api"
+  ],
+  "author": "Ross Wilson <me@rosswilson.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosswilson/train-board/issues"
+  },
+  "homepage": "https://github.com/rosswilson/train-board#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format",
+      "pre-push": "npm test"
+    }
+  }
+}
