@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/rosswilson/train-board#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "nock": "^12.0.1",
-    "prettier": "1.19.1"
+    "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "nock": "^13.0.0-beta.4",
+    "prettier": "2.0.5"
   },
   "husky": {
     "hooks": {
@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "got": "^10.6.0"
+    "got": "^11.1.3"
   }
 }
