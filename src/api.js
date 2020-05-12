@@ -43,7 +43,11 @@ async function fetchServices(location) {
       password: process.env.REAL_TIME_TRAINS_API_PASSWORD
     });
 
-    return services.map(formatService);
+    return services
+      .map(formatService)
+      .sort(
+        (serviceA, serviceB) => serviceA.passingTime - serviceB.passingTime
+      );
   } catch (error) {
     console.error(error);
 
