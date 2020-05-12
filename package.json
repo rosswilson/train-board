@@ -35,7 +35,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run format",
+      "pre-commit": "npm run lint && npm run format && git add --all",
       "pre-push": "npm test"
     }
   },
