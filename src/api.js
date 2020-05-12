@@ -7,40 +7,40 @@ function formatService(rawService) {
     locationDetail: {
       origin: [{ description: originDescription, publicTime: originTime }],
       destination: [
-        { description: destinationDescription, publicTime: destinationTime }
+        { description: destinationDescription, publicTime: destinationTime },
       ],
-      realtimePass
+      realtimePass,
     },
     runningIdentity,
     atocName,
-    isPassenger
+    isPassenger,
   } = rawService;
 
   return {
     origin: {
       description: originDescription,
-      time: originTime
+      time: originTime,
     },
     destination: {
       description: destinationDescription,
-      time: destinationTime
+      time: destinationTime,
     },
     passingTime: realtimePass,
     identity: runningIdentity,
     atocName,
-    isPassenger
+    isPassenger,
   };
 }
 
 async function fetchServices(location) {
   try {
     const {
-      body: { services }
+      body: { services },
     } = await got(location, {
       prefixUrl,
       responseType: "json",
       username: process.env.REAL_TIME_TRAINS_API_USERNAME,
-      password: process.env.REAL_TIME_TRAINS_API_PASSWORD
+      password: process.env.REAL_TIME_TRAINS_API_PASSWORD,
     });
 
     return services
