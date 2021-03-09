@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 13.x]
+        node-version: [12.x, 14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -18,10 +18,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - run: npm install
-    
-    - run: npm run build --if-present
-    
-    - run: npm test
+    - run: yarn install
+
+    - run: yarn test
       env:
         CI: true
