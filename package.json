@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/rosswilson/train-board#readme",
   "devDependencies": {
-    "eslint": "^7.0.0",
-    "husky": "^5.1.3",
+    "eslint": "^7.25.0",
+    "husky": "^6.0.0",
     "jest": "^26.0.1",
     "nock": "^13.0.0-beta.4",
     "prettier": "2.2.1"
